@@ -1,0 +1,16 @@
+import requests
+
+class OllamaAPI:
+    @staticmethod
+    def chat(model, messages):
+        url = "https://api.ollama.ai/v1/chat"
+        headers = {
+            "Authorization": f"Bearer {API_KEY}",
+            "Content-Type": "application/json"
+        }
+        data = {
+            "model": model,
+            "messages": messages
+        }
+        response = requests.post(url, json=data, headers=headers)
+        return response.json()
