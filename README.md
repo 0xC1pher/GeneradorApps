@@ -1,25 +1,30 @@
 # GeneradorApps
-Este proyecto es ideal para desarrolladores que desean acelerar el proceso de creación de aplicaciones Flask y aprovechar la potencia de los modelos de lenguaje para la generación de código.
+##Este proyecto es ideal para desarrolladores que desean acelerar el proceso de creación de aplicaciones Flask 
+##aprovechar la potencia de los modelos de lenguaje para la generación de código.
 =======
 #proximos cambios 
-**mejorar la escalabilidad, y llevarlo a un CMS **
-Generación Automática de Contenido:
 
-Actualmente, el proyecto genera automáticamente archivos, rutas y plantillas basadas en la descripción del usuario. Esto es similar a cómo un CMS genera páginas y contenido dinámicamente.
+- Mejorar la escalabilidad, y llevarlo a un CMS 
+- Generación Automática de Contenido:
 
-Interfaz de Usuario:
+- Actualmente, el proyecto genera automáticamente archivos, rutas y plantillas basadas en la descripción del usuario. Esto es similar a 
 
-La interfaz web actual permite que los usuarios describan sus necesidades y vean el progreso de la generación de la aplicación. Esto es un punto de partida para una interfaz de administración de contenido.
+- cómo un CMS genera páginas y contenido dinámicamente.
 
-Extensibilidad:
+#Interfaz de Usuario:
 
-El uso de herramientas como create_file, update_file, y fetch_code permite la creación y modificación de contenido de manera programática.
+- La interfaz web actual permite que los usuarios describan sus necesidades y vean el progreso de la generación de la aplicación. Esto es un punto de partida para una interfaz de administración de contenido.
 
-Modelo de Lenguaje:
+#Extensibilidad:
 
-La integración con la API de Ollama permite generar contenido dinámico y estructuras complejas basadas en descripciones textuales.
+- El uso de herramientas como create_file, update_file, y fetch_code permite la creación y modificación de contenido de manera programática.
+
+#Modelo de Lenguaje:
+
+- La integración con la API de Ollama permite generar contenido dinámico y estructuras complejas basadas en descripciones textuales.
 
 #feature 
+
 1. Gestión de Contenido
 Creación de Contenido: Permitir que los usuarios creen, editen y eliminen contenido (páginas, entradas de blog, etc.) desde una interfaz web.
 
